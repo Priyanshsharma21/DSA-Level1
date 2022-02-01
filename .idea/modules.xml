@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Getting Started.iml" filepath="$PROJECT_DIR$/.idea/Getting Started.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lacture2/Lacture2.iml" filepath="$PROJECT_DIR$/Lacture2/Lacture2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture2/Lecture2.iml" filepath="$PROJECT_DIR$/Lecture2/Lecture2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/febonachie/febonachie.iml" filepath="$PROJECT_DIR$/febonachie/febonachie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lacture3/lacture3.iml" filepath="$PROJECT_DIR$/lacture3/lacture3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lecture1/lecture1.iml" filepath="$PROJECT_DIR$/lecture1/lecture1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myPurpose/myPurpose.iml" filepath="$PROJECT_DIR$/myPurpose/myPurpose.iml" />
+    </modules>
+  </component>
+</project>
