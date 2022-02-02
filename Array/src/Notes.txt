@@ -1,0 +1,58 @@
+write your code here
+
+      when we want to store marks of one student
+
+        int marks_1 = 66;
+
+       Second child
+
+        int marks_2  = 76;
+
+      but for the whole class we cant do like this
+
+       We use arrays are the collection of similar typw of data type
+       to store same type of datatype in a container we use arrays
+
+        int[] marks = new int[50]; // Declare array // Allocate size of memory
+        // 5 size array created
+      Inside memory size 50 memory created and now we can store 5 child marks in it
+
+        // allocate values inside array
+
+        marks[0] = 10;
+        marks[1] = 20;
+        marks[2] = 30;
+        marks[3] = 40;
+        marks[4] = 50;
+
+print array
+        for (int i=0; i<=marks.length; i++){
+            System.out.println(marks[i]);
+        }
+
+       Array is a non primitive type of data type
+Element adress store in stack area and value inside heap
+it is a ref type so when we make another array and make it equal to first one the change in second affect first
+element access time sme
+        int[] arr = new int[5]; // In stack arr name block created and inside heap 5 size array created whose 1st index adress
+       store inside stack
+        arr[0] = 13;
+        arr[1] = 14;
+        arr[2] = 15;
+        arr[3] = 16;
+        arr[4] = 17; // Value store inside heap area
+
+        int[] arr2 = arr;
+       new array created which point to same heap location as first
+        arr2[3] = 20;
+        for(int i=0; i<=arr.length; i++){
+            System.out.println(arr[i]);
+        }
+        for (int i = 0; i<= arr2.length; i++){
+            System.out.println(arr2[i]);
+        }
+
+Note -> When we pass array in parameter in function its shallow copy created and whatever changes happen to it will be
+ reflect to orignlal
+
+
