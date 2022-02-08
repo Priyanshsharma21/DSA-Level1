@@ -16,17 +16,17 @@ public class Base_Product {
     }
 
 
-    public static int product(int num1, int num2, int base){
+    public static int product(int num1, int num2, int base){ // num1 = 2156 // num2 = 74 // base = 8
         int rv = 0;
         int p = 1;
 
         while(num2>0){
-            int dig = num2%10;
-            num2/=10;
+            int dig = num2%10; // 4 // 7
+            num2/=10; // 7 // 0
 
-            int sprd = multiply_single_digit(num1,num2,base);
+            int sprd = multiply_single_digit(num1,dig,base);
             rv = add(rv , sprd * p , base);
-            p *=10;
+            p *=10; // this will increase the sum by one value
         }
 
 
@@ -35,20 +35,20 @@ public class Base_Product {
         return rv;
     }
 
-    public static int multiply_single_digit(int num1, int num2, int base){
+    public static int multiply_single_digit(int num1, int dig2, int base){
         int rv = 0;
         int power = 0;
         int c = 0;
 
         while (num1>0 || c>0){
 
-            int dig1 = num1%10;
-            num1/=10;
+            int dig1 = num1%10; // 2156 // 6 // 5 // 1 // 2
+            num1/=10; // 215 //21 // 2
 
-            int dig = dig1 * num2 + c;
+            int dig = dig1 * dig2 + c; // 6 * 4 = 24 // 5 * 4 + c = 20 // 1 * 4 + c = 4 // 2 * 4 + c = 8
 
-             dig = dig1%base;
-             c= dig1/base;
+             dig = dig1%base; // 24 % base = 24 % 8 = 0
+             c= dig1/base; // 24 / 8 = 3
 
              rv = (int) (rv + dig * Math.pow(10,power));
              power ++;

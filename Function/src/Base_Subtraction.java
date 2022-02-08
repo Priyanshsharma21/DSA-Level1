@@ -41,10 +41,6 @@ public class Base_Subtraction {
             power++;
         }
 
-
-
-
-
         return rv;
     }
 }

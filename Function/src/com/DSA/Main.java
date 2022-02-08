@@ -11,12 +11,12 @@ public class Main {
     }
 
     public static int fact(int x){ // function // which do the same work
-           int re = 1;
+           int rv = 1;
 
            for (int i=1; i<=x; i++){
-                 re*=i;
+                 rv*=i;
                                     }
-                return re;
+                return rv;
                                      }
 
 

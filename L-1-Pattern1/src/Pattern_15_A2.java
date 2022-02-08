@@ -10,7 +10,7 @@ public class Pattern_15_A2 {
         int n = in.nextInt();
 
         int st = 1;
-        int sp = 2;
+        int sp = n/2;
         int num = 1;
 
         for (int i=1;  i<=n ; i++){
