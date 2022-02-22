@@ -13,7 +13,7 @@ public class Pattern_1 {
             for (int j=1; j<=i; j++){ // this loop print in same line
                 System.out.print("* "); // if i<=j // print row(n) no of  *
             }
-            System.out.println(""); // after printing  * change line
+            System.out.println("\t"); // after printing  * change line
         }
     }
 }

@@ -41,17 +41,17 @@ public class Exit_Point {
 //            exit point
             if (i<0){
                 i++;
-                break; // i cross north
+                break; // i cross north // means i = -1 , j = 0 // (-1,0)
             }
-            else if (j<0){ // j cross south
+            else if (j<0){ // j cross east // means i = 0 and j = -1 // (0,-1)
                 j++;
                 break;
             }
-            else if (i==arr.length){ //i cross west
+            else if (i==arr.length){ //i cross south//  i = 3 ,j = 4
                 i--;
                 break;
             }
-            else if (j==arr[0].length){ // j cross east
+            else if (j==arr[0].length){ // j cross west // i = 4 , j = 3
                 j--;
                 break;
             }

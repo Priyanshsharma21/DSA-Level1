@@ -9,7 +9,7 @@ public class Pattern_4 {
         int star=n ;
         int sp = 0;
 
-        for (int i=n; i>=1; i--){ // from 5(n) to 1
+        for (int i=1; i<=n; i++){ // from 5(n) to 1
             for (int j=1; j<=sp; j++){ // 1<=0 // 1<=1 // 1<=2 , 2<=2 // so on print space
                 System.out.print("\t");
             }

@@ -30,7 +30,7 @@ public class Difference_of_array {
 
         while(k>=0){
             int dig = 0;
-            int a1v = i>=0?arr1[i]:0; // If there is no value in arr1 there is zero
+            int a1v = i>=0?arr1[i]:0; // If there is no value in arr1 there is zero // means if numbeer  = -1 then it will be 0
 
             if (arr2[j]+carry>=a1v){
                 dig = arr2[j]+ carry - a1v;

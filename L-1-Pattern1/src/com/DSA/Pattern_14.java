@@ -8,10 +8,19 @@ public class Pattern_14 {
         System.out.println("Enter a number: ");
         int x = in.nextInt();
 
-        for (int i=1;i<=10;i++){
-            System.out.println(x +" * "+i+"="+(x*i));
-        }
+//        for (int i=1;i<=10;i++){
+//            System.out.println(x +" * "+i+"="+(x*i));
+//        }
 
+table(x);
+
+    }
+
+    public static void table(int num){
+
+        for (int i=1; i<=10; i++){
+            System.out.println(num +" * "+ i+ " = "+ num*i);
+        }
 
 
     }

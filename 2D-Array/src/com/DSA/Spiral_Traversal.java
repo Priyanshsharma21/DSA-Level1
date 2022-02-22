@@ -24,39 +24,40 @@ public class Spiral_Traversal {
         int maxr = arr.length-1;
         int maxc = arr.length-1;
 
-        int tne = row*col;
-        int cnt = 0;
+        int total = row*col;
+        int count = 0;
 
-        while(cnt<tne){
+        while(count<=total){
+
 //            lw
-            for (int i=minr,j=minc; i<=maxr && cnt<tne; i++){
+            for (int i=minr,j=minc; i<=maxr && count<=total; i++){
                 System.out.println(arr[i][j]);
-                cnt++;
+                count++;
             }
 
             minc++;
 
 //            bw
 
-            for (int j=minc,i=maxr; j<=maxc && cnt<tne; j++){
+            for (int j=minc,i=maxr; j<=maxc && count<=total; j++){
                 System.out.println(arr[i][j]);
-                cnt++;
+                count++;
             }
             maxr--;
 //            rw
 
-            for (int i=maxr,j=maxc; i>=minr && cnt<tne; i--){
+            for (int i=maxr,j=maxc; i>=minr && count<=total; i--){
                 System.out.println(arr[i][j]);
-                cnt++;
+                count++;
             }
-            minc--;
+            maxc--;
 //            tw
 
-            for (int j=maxc,i=minr; j>=minc && cnt<tne; j--){
+            for (int j=maxc,i=minr; j>=minc && count<=total; j--){
                 System.out.println(arr[i][j]);
-                cnt++;
+                count++;
             }
-            maxr++;
+            minr++;
 
 
 

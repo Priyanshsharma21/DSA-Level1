@@ -32,7 +32,7 @@ public class Floor_Ceil {
                high = mid-1; // 2
                ceil = arr[mid]; // 40
            }
-           else if (n2>mid){
+           else if (n2>arr[mid]){
                low = mid+1;
                floor = arr[mid];
            }
