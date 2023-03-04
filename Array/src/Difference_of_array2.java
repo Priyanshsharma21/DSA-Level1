@@ -32,9 +32,9 @@ public class Difference_of_array2 {
             }
             if(dig<=0){
                 dig = dig+10;
-                carry = 0;
-            }else{
                 carry = 1;
+            }else{
+                carry = 0;
             }
 
             diff[k] = dig;

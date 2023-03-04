@@ -4,7 +4,8 @@ public class Ascii_Diff {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String str = in.nextLine();
-        System.out.println(asciiDiff(str));
+        String result = asciiDiff(str);
+        System.out.println(result);
     }
 
     public static String asciiDiff(String str){

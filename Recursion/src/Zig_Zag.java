@@ -11,10 +11,10 @@ public class Zig_Zag {
         if (n==0){
             return;
         }
-        System.out.print("Pre "+n);
+        System.out.println("Pre "+n);
         pzz(n-1);
-        System.out.print("In "+n);
+        System.out.println("In "+n);
         pzz(n-1);
-        System.out.print("Post "+n);
+        System.out.println("Post "+n);
     }
 }

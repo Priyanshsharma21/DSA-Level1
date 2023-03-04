@@ -17,8 +17,9 @@ public class Display_Array_rec {
         if (idx == arr.length){
             return;
         }
-        System.out.println(arr[idx]);
         dsp_array(arr,idx+1);
+        System.out.println(arr[idx]);
+
 
     }
 }

@@ -17,7 +17,6 @@ public class Pattern_20 {
                     System.out.print("\t");
                 }
 
-
             }
             System.out.println();
 

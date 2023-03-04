@@ -89,6 +89,9 @@ maxc--;
 
 
         int idx = 0;
+
+//        lw
+
         for (int i=minr,j=minc; i<= maxr; i++){
           arr[i][j]=oned[idx];
             idx++;
